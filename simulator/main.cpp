@@ -73,7 +73,7 @@ void simulate(state before, state& next)
         temp_sum   [i][j][k] += my_left*before.temperature[i][j][k];
     }
     for(i=0;i<2;++i) for(j=0;j<180;++j) for(k=0;k<360;++k) next.temperature[i][j][k]=temp_sum[i][j][k]/volume_flux[i][j][k];
-    
+
 }
 
 state current_state;
@@ -82,7 +82,7 @@ state current_state;
 
 void read_data()
 {
-    
+    //
 }
 
 void init()
