@@ -1,2 +1,5 @@
-simulator/bin/Release/simulator.exe
 *.o
+*.exe
+*.layout
+*.depend
+simulator/simulator.layout
